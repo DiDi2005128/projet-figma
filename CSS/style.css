@@ -1,0 +1,22 @@
+body {
+    background-color: #0F1B32;
+}
+
+.page h1 {
+    color: #FFFFFF;
+    text-align: center;
+}
+.page p {
+    color: #5A77AB;
+    text-align: center;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 5px; 
+  max-width: 500px;
+  margin: auto; 
+  justify-content: center;
+}
+
+
