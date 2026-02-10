@@ -12,10 +12,10 @@ body {
 }
 .grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 colonnes égales */
-  gap: 5px; /* espace entre les cartes */
-  max-width: 500px; /* largeur max de la grille */
-  margin: auto; /* centrer la grille */
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 5px; 
+  max-width: 500px;
+  margin: auto; 
   justify-content: center;
 }
 
