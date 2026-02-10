@@ -1,6 +1,12 @@
+* {
+    box-sizing: border-box;
+}
 body {
     background-color: #0F1B32;
     font-family: Inter, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .page h1 {
@@ -14,7 +20,7 @@ body {
 .grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr); 
-  gap: 5px; 
+  gap: 0px; 
   max-width: 500px;
   margin: auto; 
   justify-content: center;

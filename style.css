@@ -1,0 +1,143 @@
+:root {
+    --bg-color: #0a192f;
+    --primary-red: #ff0000;
+    --text-white: #ffffff;
+    --card-bg: rgba(255, 255, 255, 0.1);
+    --card-border: rgba(255, 255, 255, 0.2);
+    --green-check: #00ff88;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    /* Dégradé radial pour l'effet de lumière au centre */
+    background: radial-gradient(circle, #1a2a44 0%, #0a192f 100%);
+}
+
+.container {
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Header & Logo */
+.header {
+    margin-bottom: 50px;
+}
+
+.logo {
+    max-width: 180px;
+    height: auto;
+}
+
+/* Main Content */
+.main-content {
+    margin-bottom: 40px;
+}
+
+.title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+.discount {
+    font-size: 3.5rem;
+    font-weight: 900;
+    color: var(--primary-red);
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.cta-button {
+    background-color: var(--primary-red);
+    color: white;
+    border: none;
+    padding: 15px 40px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+    box-shadow: 0 4px 15px rgba(255, 0, 0, 0.3);
+}
+
+.cta-button:hover {
+    transform: scale(1.05);
+    background-color: #e60000;
+}
+
+/* Info Card (Comment ça marche) */
+.info-card {
+    background-color: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 20px;
+    padding: 30px;
+    backdrop-filter: blur(10px);
+    /* Effet de flou derrière la carte */
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.info-title {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.info-list {
+    list-style: none;
+    text-align: left;
+}
+
+.info-list li {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    line-height: 1.4;
+    color: #cbd5e1;
+}
+
+.check-icon {
+    color: var(--green-check);
+    margin-right: 15px;
+    font-weight: bold;
+    border: 1px solid var(--green-check);
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+    flex-shrink: 0;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+    .title {
+        font-size: 1.8rem;
+    }
+
+    .discount {
+        font-size: 2.5rem;
+    }
+
+    .info-card {
+        padding: 20px;
+    }
+}
