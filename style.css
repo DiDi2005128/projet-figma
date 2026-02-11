@@ -1,4 +1,3 @@
-/* Variables de couleurs et paramètres globaux */
 :root {
     --bg-color: #0a192f;
     --primary-red: #ff0000;
@@ -63,7 +62,7 @@ body {
 
 .title {
     font-size: clamp(1.5rem, 5vw, 2.8rem);
-    /* Taille fluide selon l'écran */
+    /* Taille selon l'écran */
     font-weight: 700;
     margin-bottom: 0.5rem;
     line-height: 1.2;
@@ -71,7 +70,7 @@ body {
 
 .discount {
     font-size: clamp(2rem, 8vw, 4rem);
-    /* Taille fluide selon l'écran */
+    /* Taille selon l'écran */
     font-weight: 900;
     color: var(--primary-red);
     margin-bottom: 2rem;
@@ -139,8 +138,6 @@ body {
     color: var(--green-check);
     margin-right: 15px;
     font-weight: bold;
-    border: 1.5px solid var(--green-check);
-    border-radius: 50%;
     width: 22px;
     height: 22px;
     display: inline-flex;
@@ -151,7 +148,6 @@ body {
     margin-top: 2px;
 }
 
-/* Media Queries spécifiques pour ajustements fins */
 @media (max-width: 600px) {
     .container {
         gap: 1.5rem;
@@ -159,7 +155,6 @@ body {
 
     .cta-button {
         width: 100%;
-        /* Le bouton prend toute la largeur sur petit mobile */
         max-width: 300px;
     }
 }
