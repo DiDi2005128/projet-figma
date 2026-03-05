@@ -10,7 +10,32 @@ body {
 
 
 }
-.bon de réduction {
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+ /* .image {
+      display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    } */
+img {
+    width: 20%;
+    height: auto;
+    margin-bottom: 20px;
+    display: block;
+    margin: auto;
+}
+
+ p {
+    font-size: 1rem;
+    font-family: sans-serif;
+  margin-top: 20px;
+    text-align: center;
+ }
+.bon-de-réduction {
     text-align: center;
     margin-top: 20px;   /* espace depuis le haut */
 }
@@ -27,18 +52,20 @@ input {
     width: 100%;
     padding: 12px;
     margin-bottom: 20px;
-    background: #4B5A74;
-    border: none;
+    backgroud: #4B5A74;
+    border: 
+    none;
     border-radius: 8px;
     box-sizing: border-box;
     color: #FFFFFF;
 
 }   
-.form{
+form{
     background-color: #121d2f;
-    padding: 30px;
+    padding: 20px;
     border-radius: 10px;
-}
+    }
+
 .cta-button {
     width: 100%;
     padding: 10px;

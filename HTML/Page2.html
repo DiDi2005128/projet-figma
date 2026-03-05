@@ -1,39 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/CSS/Dic.css">  
+    <link rel="stylesheet" href="../CSS/Dic.css">  
 </head>
 <body>
     <!====  form ====!/>
     <div class="container">
         <div class="image">
-            <img src="/image/WhatsApp Image 2026-02-10 at 11.14.51.jpeg" alt="Bon de réduction">
-        <p>Veuillez remplir le formulaire ci-dessous pour recevoir votre bon de réduction.</p>
-        <form class="form">
+            <img src="../image/logo FT.webp" alt="centre">
+              <p>Veuillez remplir le formulaire ci-dessous pour <br />recevoir votre réduction.</p>
+        </div>
+      
+        <form>
             <h2>Inscription</h2>
             <div class="form-group">
                 <label for="name">Nom:</label>
-                <input type="text" id="name" name="name" required>
+                <input type="text" id="name" name="name" placeholder=" nom" required>
             </div>
             <div class="form-group">
                 <label for="prenom">Prénom:</label>
-                <input type="text" id="prenom" name="prenom" required>
+                <input type="text" id="prenom" name="prenom" placeholder="prénom" required>
             </div>
             <div class="form-group">
                 <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
+                <input type="email" id="email" name="email" placeholder=" adresse email" required>
             </div>
             <div class="form-group">
-                <label for="adresse_postale"></label>Adresse postale:</label>
-                <input type="text" id="adresse_postale" name="adresse_postale" required>
+                <label for="adresse_postale">Adresse postale:</label>
+                <input type="text" id="adresse_postale" name="adresse_postale" placeholder="adresse postale" required>   
                 </div> 
                 <p> Votre adresse email est nécessaire pour vous envoyer le bon de réduction.</p>
                 <button class="cta-button">Recevoir mon bon</button>
 
         </form>
+        </div>
     </div>
 </body>
 </html>
