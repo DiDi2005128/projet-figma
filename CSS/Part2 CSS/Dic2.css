@@ -10,6 +10,24 @@ body{
 }
 .img{
     width: 486%;
-    height: 324px;
-    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+img
+.cta-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #FF0000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+     transition: transform 0.2s, background-color 0.2s;
+    box-shadow: 0 4px 15px rgba(255, 0, 0, 0.3);
+}
+.cta-button:hover {
+    background-color: #FF4C4C;
+    transform: scale(1.05);
+}
+    
