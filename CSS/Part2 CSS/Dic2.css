@@ -28,6 +28,13 @@ body{
     color: white;
     margin-top: 20px;
 }
+h1{
+    color:#FF0000; /* Red */
+}
+span {
+    font-weight: bold;
+    color: #59FF00;
+}
 .cta-button {
     width: 100%;
     padding: 10px;
