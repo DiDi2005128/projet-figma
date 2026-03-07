@@ -36,7 +36,8 @@ span {
     color: #59FF00;
 }
 .cta-button {
-    width: 100%;
+    width: 200%;
+    height: 50px;
     padding: 10px;
     background-color: #FF0000;
     color: white;
