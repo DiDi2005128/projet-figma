@@ -1,6 +1,3 @@
-/* --- LE STYLE CSS (C'est ici qu'on change les couleurs et le look) --- */
-
-/* On met un style général pour tout le site */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -9,9 +6,8 @@ body {
     text-align: center;
 }
 
-/* 1. L'arrière-plan (votre code de base) */
+/* 1. L'arrière-plan*/
 .arriere-flou {
-    /* C'est ici qu'on ajoute l'effet de flou sur le fond */
     filter: blur(8px);
     padding: 20px;
 }
@@ -19,7 +15,6 @@ body {
 .grille-cartes {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /* 3 colonnes */
     gap: 10px;
     max-width: 400px;
     margin: 20px auto;
@@ -30,10 +25,9 @@ body {
     height: auto;
 }
 
-/* 2. La fenêtre de victoire (qui se met par-dessus) */
+/* 2. La fenêtre de victoire */
 .fond-noir-transparent {
     position: fixed;
-    /* Reste fixé par-dessus tout */
     top: 0;
     left: 0;
     width: 100%;
@@ -72,7 +66,7 @@ h1 {
     margin: 20px 0;
 }
 
-.bouton-rouge {
+.CTA-rouge {
     background-color: red;
     color: white;
     padding: 15px 30px;
