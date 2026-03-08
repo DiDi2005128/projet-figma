@@ -22,16 +22,24 @@ body {
     width: 28px;
     height: 28px;
     border-radius: 50%;
-    background: #22C55E;
-    box-shadow: 0 0 8px rgba(34, 197, 94, 0.6);
+    background: #08FF00;
+   
 }
 
 .dot-a {
     width: 28px;
     height: 28px;
     border-radius: 50%;
-    background: #d61515;
-    box-shadow: 0 0 8px rgba(230, 5, 5, 0.941);
+    background: #FF0000;
+    
+}
+
+.dot-b {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: #283B5C;
+    
 }
 
 .page h1 {
